@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+
+
+}
+
+main {
+    font-size: 17px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100hv;
+    padding: 100px;
+}
+
+.sedan {
+
+    background-color: rgb(213, 127, 23);
+    padding: 2em;
+    border: none;
+    color: white;
+}
+
+
+
+.suv {
+    background-color: rgb(9, 113, 178);
+    padding: 2em;
+    border: 0;
+    color: white;
+}
+
+
+
+.luxury {
+
+    background-color: rgb(5, 57, 90);
+    padding: 2em;
+    border: 0;
+    color: white;
+}
+
+button {
+    border-radius: 2rem;
+    border: none;
+    font-size: x-small;
+    padding: 1em;
+    width: 60%;
+    margin: 7em;
+}
+
+button:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
